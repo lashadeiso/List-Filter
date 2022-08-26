@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Students Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-1">
+        <h1>Sign Up</h1>
+        
+        <form class="form-wrapper">
+          <div class="form-control">
+            <label>Name</label>
+            <input type="text" class="student name" />
+          </div>
+          <div class="form-control">
+            <label>Surname</label>
+            <input type="text" class="student surname" />
+          </div>
+          <div class="form-control">
+            <label>Age</label>
+            <input type="number" class="student age" />
+          </div>
+          <div class="form-control">
+            <label>E-mail</label>
+            <input type="text" class="student email" />
+          </div>
+          <div class="form-control">
+            <label>Mobile Number</label>
+            <input type="number" class="student mobile-number" />
+          </div>
+          <div class="form-control">
+            <input type="file" class="student img" />
+          </div>
+          <button class="submit btn">Submit</button>
+        </form>
+        
+          
+        
+      </div>
+      
+        
+        <div class="section-2">
+         
+          <table class="students-list">
+            <tr>
+              <th>Image</th>
+              <th>
+                <input class="check-box" type="checkbox" value="name" />
+                <label>Name</label>
+              </th>
+              <th>
+                <input class="check-box" type="checkbox" value="surname" />
+                <label>Surname</label>
+              </th>
+              <th>
+                <input class="check-box" type="checkbox" value="age" />
+                <label>Age</label>
+              </th>
+              <th>
+                <input class="check-box" type="checkbox" value="email" />
+                <label>Email</label>
+              </th>
+              <th>
+                <input class="check-box" type="checkbox" value="mob-number"/>
+                <label>Mobile Number</label>
+              </th>
+            </th>
+            
+        
+          </table>
+          <button class="filter btn">Filter</button>
+        </div>
+        
+
+    
+        
+    </div>
+    
+  </body>
+</html>
