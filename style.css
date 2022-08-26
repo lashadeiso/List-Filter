@@ -26,7 +26,7 @@ body {
 }
 
 input[type="checkbox"] {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .container {
@@ -44,7 +44,7 @@ input[type="checkbox"] {
   border-radius: 1.2rem;
 }
 .section-1 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   display: flex;
   justify-content: space-evenly;
   margin-top: 2%;
@@ -67,10 +67,10 @@ input[type="checkbox"] {
 }
 
 .form-control input {
-  height: 50%;
+  height: 40%;
   width: 100%;
   padding: 0.2rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-radius: 0.2rem;
   border: none;
   padding-left: 0.5rem;
@@ -78,14 +78,14 @@ input[type="checkbox"] {
 .form-control label {
   width: 100%;
   margin: 0 auto;
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 2%;
 }
 
 .btn {
   width: 40%;
   margin: 2% auto;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border: 0.1rem solid var(--border-color);
   border-radius: 0.5rem;
   cursor: pointer;
@@ -119,7 +119,7 @@ input[type="checkbox"] {
 }
 .students-list td,
 .students-list th {
-  height: 5rem;
+  height: 3rem;
   width: 10%;
   border: 0.1rem solid var(--border-color);
   padding-left: 1%;
@@ -132,7 +132,7 @@ input[type="checkbox"] {
 }
 
 .student-img {
-  height: 5rem;
+  height: 3rem;
   width: 100%;
   object-fit: cover;
 }
@@ -142,7 +142,7 @@ input[type="checkbox"] {
   color: var(--primary-font-color);
   background-color: var(--btn-primary-color);
   transition: all 0.5s;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 .students-list th:hover {
@@ -151,7 +151,7 @@ input[type="checkbox"] {
 .students-list td {
   color: var(--secondary-font-color);
   background-color: var(--main-secondary-color);
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .students-list tr:nth-child(even) {
   background-color: #f2f2f2;
@@ -166,20 +166,20 @@ input[type="checkbox"] {
 
 @media (max-width: 1600px) {
   .section-1 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .students-list th {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
   }
   .students-list td {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .form-control input {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .form-control label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   input[type="checkbox"] {
     transform: scale(1.2);
